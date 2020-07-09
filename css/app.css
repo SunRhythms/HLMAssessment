@@ -52,7 +52,9 @@ ul {
     
 }
 
-.adwordsTitle{
+.offerTxt{
+    margin-right;20px;
+    padding-right:20px;
     
     
 }
@@ -79,6 +81,7 @@ ul {
     font-size: 24px;
     margin:10px 0px 15px;
     line-height: 30px;
+    z-index: 5;
     
 }
 
@@ -100,6 +103,13 @@ ul {
 .wrap > H1{
 	color: darkgrey;
 
+}
+
+
+.adwordsTitle{
+    margin-bottom:15px;
+    
+    
 }
 
 /**** header ****/
@@ -133,6 +143,23 @@ ul {
     font-size: 18px;
     margin-bottom: 15px;
   
+}
+
+
+ .singleInput::placeholder{
+    color: black;
+    font-size: 10px;
+    vertical-align: text-top;
+    text-align: left;
+    
+}
+
+.multiInput::placeholder{
+    color: black;
+    font-size: 10px;
+    vertical-align: text-top;
+    text-align: left;
+    
 }
 
 /**** hero area ****/
@@ -171,20 +198,18 @@ ul {
     background-size: cover;
 }
 
-.rating{
-    padding:0px 60px ;
-    width: 50%;
-    margin:10px auto;
+
+.srvTag{
+ 
     
 }
 
-.stars{
-    padding:0px 60px ;
-    width: 50%;
-    margin:10px auto;
-    
-    
+.commet{
+ 
+ margin-top:-4%;
+ z-index: 1;
 }
+
 
 /**offer**/
 .offer{
@@ -200,30 +225,27 @@ ul {
 }
 
 
-.adwordsTitle{
-    margin-bottom:15px;
-    
-    
-}
+
 
 .benBullets{
     margin:15px 0px; 
+    padding-right:20px;
 }
 
 
 .form-container{
     
-    /*background:lightblue;*/
+    background:lightblue;
     background-image:
   /*two color gradient over an image*/
-linear-gradient(to bottom, rgba(245, 246, 252, 0.0), 
+linear-gradient(to bottom, rgba(245, 246, 252, 0.4), 
 rgba(107, 185, 240, .8)),url('/img/formSkyBG.png');
 }
 
 .formTitle{
     font-weight: 600;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 .singleInput{
@@ -234,29 +256,47 @@ rgba(107, 185, 240, .8)),url('/img/formSkyBG.png');
     height: 70px;
 }
 
- .singleInput::placeholder{
-    color: black;
-    font-size: 10px;
-    vertical-align: text-top;
-    text-align: left;
-    
-}
-
-.multiInput::placeholder{
-    color: black;
-    font-size: 10px;
-    vertical-align: text-top;
-    text-align: left;
-    
-}
 
 .callout{
      margin-bottom: 0px;
 }
 
+.modalBtn{
+    margin: 25px 0px;
+    min-width: 
+}
+
 
 .callout > .button{
      margin-bottom: 0px;
+}
+
+.rating{
+    padding:0px 60px ;
+    width: 60%;
+    margin:10px auto;
+    
+}
+
+.stars{
+    padding:0px 60px ;
+    width: 60%;
+    margin:10px auto;
+    
+    
+}.ratingMd{
+    padding:0px 60px ;
+    width: 50%;
+    margin:10px auto;
+    
+}
+
+.starsMd{
+    padding:0px 60px ;
+    width: 50%;
+    margin:10px auto;
+    
+    
 }
 
 
