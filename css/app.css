@@ -68,8 +68,7 @@ ul {
 
 .headerCntct{
     font-weight: 900;
-    font-size: 18px;
-    text-align: left;
+    font-size: 1.6em;
     padding-top: 0px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -225,7 +224,9 @@ ul {
 }
 
 
-
+.reveal {
+    padding:0px;
+}
 
 .benBullets{
     margin:15px 0px; 
